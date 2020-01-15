@@ -1,0 +1,32 @@
+
+
+
+def score_the_alignments(s1, s2):
+    
+    L1 = len(s1)
+    L2 = len(s2)
+    Na = L1 + L2
+    
+    for i in range(Na):
+        #Lp = Na - i
+        s1p = (Na - i) * '-' + s1 + i * '-'
+        s2p = i * '-' + s2 + (Na - i) * '-'
+        print('\n\n%s\n%s\n\n' % (s1p, s2p))
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    return scores
+
+
+
+
+seq1 = 'TCA'
+seq2 = 'GA'
+scores = score_the_alignments(seq1, seq2)
