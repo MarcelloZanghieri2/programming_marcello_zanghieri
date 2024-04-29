@@ -1,2 +1,2 @@
 # programming_marcello_zanghieri
-Repository for the Programming for Bioinformatics course.
+Repository for the PhD course Programming for Bioinformatics.
